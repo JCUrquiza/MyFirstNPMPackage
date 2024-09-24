@@ -10,7 +10,7 @@ export const routes: Routes = [
         loadComponent: () => import('./modules/admin/pages/summary/summary.component')
       },
       {
-        path: 'proyects',
+        path: 'projects',
         loadComponent: () => import('./modules/admin/pages/proyects/proyects.component')
       },
     ]
